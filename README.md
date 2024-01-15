@@ -1,6 +1,9 @@
+> [!NOTE]
+> In this fork, some more weights (500, 600, and 700) are added to the [weights](weights) folder. They have been auto-generated with FontForge’s [Change Weight](https://fontforge.org/docs/ui/dialogs/Styles.html#the-change-weight-dialog) command.
+
 # Fragment Mono
 
-Fragment Mono is a monospaced coding version of Helvetica created by modifying and extending [Nimbus Sans](https://github.com/twardoch/urw-core35-fonts) by URW Design Studio. 
+Fragment Mono is a monospaced coding version of Helvetica created by modifying and extending [Nimbus Sans](https://github.com/twardoch/urw-core35-fonts) by URW Design Studio.
 
 ### [Download the latest fonts](https://github.com/weiweihuanghuang/fragment-mono/releases) or use Fragment Mono on [Google Fonts](https://fonts.google.com/specimen/Fragment+Mono)
 
@@ -22,18 +25,23 @@ Download a specimen [here](documentation/FragmentMonoSpecimenDocumentation.pdf).
 - Spacing has been matched to SF Mono.
 
 ### Coding Ligatures
+
 ![Sample Image](documentation/FragmentMonoCoding.png)
 
 ### Javascript
+
 ![JavaScript sample](documentation/javascript.png)
 
 ### Python
+
 ![Python sample](documentation/python.png)
 
 ### Ruby
+
 ![Ruby sample](documentation/ruby.png)
 
 ### PHP
+
 ![PHP sample](documentation/php.png)
 
 ## Building
@@ -42,9 +50,9 @@ Fonts are built automatically by GitHub Actions - take a look in the "Actions" t
 
 If you want to build fonts manually on your own computer:
 
-* `make build` will produce font files.
-* `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
-* `make proof` will generate HTML proof files.
+- `make build` will produce font files.
+- `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
+- `make proof` will generate HTML proof files.
 
 The proof files and QA tests are also available automatically via GitHub Actions - look at https://weiweihuanghuang.github.io/fragment-mono.
 
